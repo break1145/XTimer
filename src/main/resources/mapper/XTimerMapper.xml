@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.example.xtimer.mapper.XTimerMapper">
+    <resultMap id="XTimer" type="org.example.xtimer.common.entity.XTimer">
+        <id column="id" property="timerId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="modify_time" property="modifyTime"/>
+        <result column="app" property="app"/>
+        <result column="name" property="name"/>
+        <result column="status" property="status"/>
+        <result column="cron" property="cron"/>
+        <result column="notify_http_param" property="notifyHTTPParam"/>
+    </resultMap>
+
+
+    <insert id="save" useGeneratedKeys="true" keyProperty="timerId">
+        insert into xtimer (`app`,`name`,`status`,`cron`,`notify_http_param`)
+        values (#{app}, #{name}, #{status}, #{cron}, #{notifyHTTPParam})
+    </insert>
+    <update id="update">
+        update xtimer
+        <set>
+            <if test="timerModel.app != null">
+                `app` = #{timerModel.app},
+            </if>
+            <if test="timerModel.name != null">
+                `name` = #{timerModel.name},
+            </if>
+            <if test="timerModel.status != null">
+                `status` = #{timerModel.status},
+            </if>
+            <if test="timerModel.cron != null">
+                `cron` = #{timerModel.cron},
+            </if>
+            <if test="timerModel.notifyHTTPParam != null">
+                `notify_http_param` = #{timerModel.notifyHTTPParam},
+            </if>
+        </set>
+        where timer_id = #{timerModel.timerId};
+    </update>
+
+    <select id="getTimerById" resultMap="XTimer">
+        select * from xtimer where timer_id = #{id};
+    </select>
+    <select id="getTimersByStatus" resultType="org.example.xtimer.common.entity.XTimer">
+        select * from xtimer where status = #{status}
+    </select>
+
+</mapper>

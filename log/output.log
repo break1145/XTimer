@@ -1,0 +1,56 @@
+22:18:07.166 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.example.xtimer.SLF4J_Tests]: SLF4J_Tests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:18:07.263 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.example.xtimer.XTimerApplication for test class org.example.xtimer.SLF4J_Tests
+22:18:07.420 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+22:18:07.717 [main] INFO  org.example.xtimer.SLF4J_Tests - Starting SLF4J_Tests using Java 22.0.1 with PID 5960 (started by break in C:\Users\break\IdeaProjects\XTimer)
+22:18:07.720 [main] INFO  org.example.xtimer.SLF4J_Tests - No active profile set, falling back to 1 default profile: "default"
+22:18:08.398 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+22:18:08.409 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+22:18:09.582 [main] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Starting...
+22:18:09.898 [main] INFO  com.zaxxer.hikari.pool.HikariPool - SPHHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2905b568
+22:18:09.900 [main] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Start completed.
+22:18:10.065 [main] INFO  org.example.xtimer.SLF4J_Tests - Started SLF4J_Tests in 2.645 seconds (process running for 3.591)
+22:18:10.674 [main] INFO  org.example.xtimer.SLF4J_Tests - Set score 99 for Person test timer name ok.
+22:18:10.688 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Shutdown initiated...
+22:18:10.696 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Shutdown completed.
+22:20:34.937 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.example.xtimer.SLF4J_Tests]: SLF4J_Tests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:20:35.035 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.example.xtimer.XTimerApplication for test class org.example.xtimer.SLF4J_Tests
+22:20:35.197 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+22:20:35.480 [main] INFO  org.example.xtimer.SLF4J_Tests - Starting SLF4J_Tests using Java 22.0.1 with PID 2224 (started by break in C:\Users\break\IdeaProjects\XTimer)
+22:20:35.482 [main] INFO  org.example.xtimer.SLF4J_Tests - No active profile set, falling back to 1 default profile: "default"
+22:20:36.141 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+22:20:36.152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+22:20:37.196 [main] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Starting...
+22:20:37.512 [main] INFO  com.zaxxer.hikari.pool.HikariPool - SPHHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7afb9c93
+22:20:37.514 [main] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Start completed.
+22:20:37.684 [main] INFO  org.example.xtimer.SLF4J_Tests - Started SLF4J_Tests in 2.492 seconds (process running for 3.383)
+22:20:38.258 [main] WARN  org.example.xtimer.SLF4J_Tests - Set score 99 for Person test timer name ok.
+22:20:38.272 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Shutdown initiated...
+22:20:38.283 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Shutdown completed.
+22:21:52.578 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.example.xtimer.SLF4J_Tests]: SLF4J_Tests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:21:52.663 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.example.xtimer.XTimerApplication for test class org.example.xtimer.SLF4J_Tests
+22:21:52.808 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+22:21:53.088 [main] INFO  org.example.xtimer.SLF4J_Tests - Starting SLF4J_Tests using Java 22.0.1 with PID 27928 (started by break in C:\Users\break\IdeaProjects\XTimer)
+22:21:53.090 [main] INFO  org.example.xtimer.SLF4J_Tests - No active profile set, falling back to 1 default profile: "default"
+22:21:53.700 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+22:21:53.708 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+22:21:54.656 [main] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Starting...
+22:21:54.973 [main] INFO  com.zaxxer.hikari.pool.HikariPool - SPHHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5df64b2a
+22:21:54.975 [main] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Start completed.
+22:21:55.148 [main] INFO  org.example.xtimer.SLF4J_Tests - Started SLF4J_Tests in 2.339 seconds (process running for 3.193)
+22:21:55.736 [main] WARN  org.example.xtimer.SLF4J_Tests - Set score 99 for Person test timer name ok.
+22:21:55.750 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Shutdown initiated...
+22:21:55.760 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Shutdown completed.
+22:24:36.951 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [org.example.xtimer.SLF4J_Tests]: SLF4J_Tests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:24:37.077 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration org.example.xtimer.XTimerApplication for test class org.example.xtimer.SLF4J_Tests
+22:24:37.275 [main] INFO  o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+22:24:37.588 [main] INFO  org.example.xtimer.SLF4J_Tests - Starting SLF4J_Tests using Java 22.0.1 with PID 34916 (started by break in C:\Users\break\IdeaProjects\XTimer)
+22:24:37.591 [main] INFO  org.example.xtimer.SLF4J_Tests - No active profile set, falling back to 1 default profile: "default"
+22:24:38.227 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+22:24:38.236 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+22:24:39.321 [main] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Starting...
+22:24:39.669 [main] INFO  com.zaxxer.hikari.pool.HikariPool - SPHHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d1c37d5
+22:24:39.671 [main] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Start completed.
+22:24:39.832 [main] INFO  org.example.xtimer.SLF4J_Tests - Started SLF4J_Tests in 2.554 seconds (process running for 3.579)
+22:24:40.435 [main] WARN  org.example.xtimer.SLF4J_Tests - Set score 99 for Person test timer name ok.
+22:24:40.449 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Shutdown initiated...
+22:24:40.457 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - SPHHikariPool - Shutdown completed.
